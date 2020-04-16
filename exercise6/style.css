@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+}
+.interior {
+    position: relative;
+    width: 100px;
+    height: 100px;
+}
+.div1{
+    background-color: red;
+    border: 5px solid white;
+    left: 100px;
+}
+.div2{
+    background-color: orange;
+    border: 5px solid white;
+    left: 230px;
+    bottom: 100px;
+    transform: rotate(340deg);
+}
+.div3{
+    background-color: yellow;
+    border: 5px solid white;
+    left: 200px;
+    bottom: 100px;
+    transform: rotate(320deg);
+}
+.div4{
+    background-color: blue;
+    border: 5px solid white;
+    left: 120px;
+    bottom: 250px;
+    transform: rotate(300deg);
+}
+.div5{
+    background-color: violet;
+    border: 5px solid white;
+    left: 45px;
+    bottom: 360px;
+    transform: rotate(15deg);
+}

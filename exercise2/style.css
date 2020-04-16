@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+}
+.interior {
+    position: relative;
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+}
+
+.div1 {
+    left: 10px;
+    top: 10px;
+}
+.div2{
+    left: 130px;
+    bottom: 90px;
+}
+.div4{
+    left: 10px;
+    bottom: 170px;
+}
+.div5{
+    left: 130px;
+    bottom: 270px;
+}
+.div3 {
+    background-color: red;
+    left: 70px;
+    bottom: 130px;
+    z-index: 1;
+    transform: rotate(45deg);
+}
